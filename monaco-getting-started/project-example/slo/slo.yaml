@@ -1,0 +1,12 @@
+configs:
+- id: my-sample-slo
+  config:
+    name: mySampleSLO
+    parameters:
+      tags:
+        type: list
+        values: ["service:myService",
+          "dt.owner:myTeam"]
+    template: slo.json
+    skip: false
+  type: slo-v2
