@@ -4,7 +4,7 @@
   "tags": {{ .tags }},
   "criteria": [
     {
-      "target": 95,
+      "target": 90,
       "timeframeFrom": "now-7d",
       "timeframeTo": "now"
     }
